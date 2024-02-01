@@ -23,14 +23,14 @@ def main():
     
     print("-----------------------------------------")
 
-
+    print("part 1")
     ### PART 1 ###
-
+    
     # Functions take arguments as parameters.
     # To clarify, parameters are the names listed in the functions definition.
     # The arguments are the specific values passed to the function. 
-    my_name = "" # put your name inside of the quotes
-    my_favorite_color = "" # put your favorite color inside of the quotes
+    my_name = "John Lake" # put your name inside of the quotes
+    my_favorite_color = "gray" # put your favorite color inside of the quotes
 
     # TODO: Look inside the module_1_parameters() function below to see how it works.
 
@@ -40,20 +40,20 @@ def main():
 
     print("-----------------------------------------")
 
-
+    print("part 2")
     ### PART 2 ###
 
     # As we saw in part 2, functions are able to take values via arguments
     # Functions can also return values at the end.
 
     # TODO: Read through the module_2_return function. Change the values passed so the returned result is 64
-    returned_result = module_2_return(1, 0)
+    returned_result = module_2_return(4, 3)
     print(f"The returned result should be 64: {returned_result}")
 
     print("-----------------------------------------")
 
 
-
+    print("part 3")
     ### PART 3 ###
 
     # Operators are used to perform operations on variables.
@@ -65,7 +65,7 @@ def main():
 
     print("-----------------------------------------")
 
-
+    print("part 4")
     ### PART 4 ###
 
     # Let's talk about different data types.
@@ -76,7 +76,7 @@ def main():
     print("-----------------------------------------")
 
 
-
+    print("part 5")
     ### PART 5 ###
 
     # Let's talk about logical and comparison operators
@@ -86,7 +86,7 @@ def main():
 
 
     print("-----------------------------------------")
-
+    print("part 6")
     ### PART 6 ###
 
     # Let's talk about conditional statements
@@ -96,7 +96,7 @@ def main():
 
 
     print("-----------------------------------------")
-
+    print("part 7")
     ### PART 7 ###
 
     # Let's talk about iteration with for loops
@@ -206,7 +206,8 @@ def module_3_operators(a, b):
     # example: (x + y) * z
 
     # TODO: Change None to return the value of c, given a and b
-    return None 
+    c = (a**2+b**2)**0.5
+    return c
 
         
 
@@ -332,22 +333,22 @@ def module_5_logic():
     # Change all of the None to the correct answer
 
     question_1 = 5*6 == 29
-    answer_1 = None
+    answer_1 = False
 
     question_2 = 10 != 11
-    answer_2 = None
+    answer_2 = True
 
     question_3 = 2*6 >= 11
-    answer_3 = None
+    answer_3 = True
 
     question_4 = 2+2 == 4 and 3+3 == 5
-    answer_4 = None
+    answer_4 = False
 
     question_5 = 2+3 == 4 or 3+3 == 6
-    answer_5 = None
+    answer_5 = True
 
     question_6 = 2 > 1 and not 10 != 10
-    answer_6 = None
+    answer_6 = True
 
     return question_1 == answer_1 and question_2 == answer_2 and question_3 == answer_3 and question_4 == answer_4 and question_5 == answer_5 and question_6 == answer_6
 
@@ -416,7 +417,7 @@ def module_6_conditional():
         result_number = 3
 
     # change this to match result_number
-    my_number = None
+    my_number = 5
 
 
     
