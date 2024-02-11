@@ -19,10 +19,10 @@ def main():
     # If you press the "step over" button, it will progress through one line of code
     # This will execute the function that decrypts the secret_password
     # You'll see the secret password in the Run and Debug section of the left side.
-
+    
     # TODO: Copy and paste the secret password next to Answer
-    # Answer: 
-
+    # Answer: 'HEY YOU FOUND THE CODE'
+    
     # Remember you can move forward through code, but you can't move backwards
     # So, make sure your clicks are deliberate!!!
 
@@ -57,7 +57,7 @@ def main():
     # This will start at the beginning of the function, and you can continue stepping over
     # There is an answer in the text in the function
     # TODO: Copy and paste the answer from step_into_me()
-    # Answer: 
+    # Answer: 48
 
     # Stop the debugger and continue reading.
 
@@ -78,11 +78,11 @@ def main():
     # Try typing 7, and then stepping over. Looks like it's not a liar after all!
     # But wait, look carefully, there is also a global variable (Globals) called "final_answer"
     # TODO: Type the value of final_answer
-    # Answer: 
+    # Answer: 'YOU ARE DONE!'
 
     
     # Now you're done! Move on to the errors.py studio.
-    return
+    return 
 
 
 
